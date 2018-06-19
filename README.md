@@ -15,6 +15,9 @@ Approach Methodology
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+### Telegram group for IoT Security
+- https://t.me/iotsecurity1011
+
 ### Books
 
 - [Android Hacker's Handbook](https://www.amazon.in/Android-Hackers-Handbook-MISL-WILEY-Joshua/dp/812654922X)
@@ -40,6 +43,10 @@ Approach Methodology
 8. https://keenlab.tencent.com/en/
 9. https://courk.cc/
 10. https://iotsecuritywiki.com/
+
+### CTF For IoT's And Embeddded
+1. https://github.com/hackgnar/ble_ctf
+2. https://www.microcorruption.com/
 
 
 ### IoT security vulnerabilites checking guides
