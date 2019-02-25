@@ -1,6 +1,8 @@
-# IoT Penetesting 101 && IoT security 101	
+# IoT Pentesting 101 && IoT security 101	![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) 
 
-Approach Methodology 
+
+
+## Approach Methodology 
   
   1. Network 
   2. Web (Front & Backend and Web services)
@@ -8,7 +10,15 @@ Approach Methodology
   4. Wireless Connectivity 
   5. Firmware Pentesting(Hardware or IoT device OS)
   6. Hardware Level Approach 
+  7. Storage Areas
 
+## To seen Hacked devices
+1. https://blog.exploitee.rs/2018/10/
+2. https://www.exploitee.rs/
+3. https://forum.exploitee.rs/
+4. [Your Lenovo Watch X Is Watching You & Sharing What It Learns](https://www.checkmarx.com/blog/lenovo-watch-watching-you/)
+5. [Your Smart Scale is Leaking More than Your Weight: Privacy Issues in IoT](https://www.checkmarx.com/blog/smart-scale-privacy-issues-iot/)
+6. [Smart Bulb Offers Light, Color, Music, and… Data Exfiltration?](https://www.checkmarx.com/blog/smart-bulb-exfiltration/)
 
 
 ## Contents
@@ -29,7 +39,6 @@ Approach Methodology
 - [Linksys WRT54G Ultimate Hacking](https://www.amazon.com/Linksys-WRT54G-Ultimate-Hacking-Asadoorian/dp/1597491667)
 - [Linux Binary Analysis](https://www.packtpub.com/networking-and-servers/learning-linux-binary-analysis)
 - [Firmware](https://www.amazon.com/Firmware-Handbook-Embedded-Technology/dp/075067606X)
-- 
 
 ### Blogs for iotpentest
 
@@ -43,24 +52,49 @@ Approach Methodology
 8. https://keenlab.tencent.com/en/
 9. https://courk.cc/
 10. https://iotsecuritywiki.com/
+11. https://cybergibbons.com/
+12. http://firmware.re/
+13. https://iotmyway.wordpress.com/
+14. http://blog.k3170makan.com/
+15. https://blog.tclaverie.eu/
+16. http://blog.besimaltinok.com/category/iot-pentest/
+
+### Search Engines for IoT Devices
+1. [Shodan](https://www.shodan.io/)
+2. [FOFA](https://fofa.so/?locale=en)
+3. [Censys](https://censys.io/)
+4. [Zoomeye](https://www.zoomeye.org/about)
+5. [ONYPHE](https://www.onyphe.io/)
 
 ### CTF For IoT's And Embeddded
 1. https://github.com/hackgnar/ble_ctf
 2. https://www.microcorruption.com/
+3. https://github.com/Riscure/Rhme-2016
+4. https://github.com/Riscure/Rhme-2017
+
+### YouTube Channels for IoT Pentesting
+1. [Liveoverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+2. [Binary Adventure](https://www.youtube.com/channel/UCSLlgiYtOXZnYPba_W4bHqQ)
+3. [EEVBlog](https://www.youtube.com/user/EEVblog)
+4. [JackkTutorials](https://www.youtube.com/channel/UC64x_rKHxY113KMWmprLBPA)
+5. [Craig Smith](https://www.youtube.com/channel/UCxC8G4Oeed4N0-GVeDdFoSA)
+6. [veerababu [Mr-IoT]](https://www.youtube.com/channel/UCe2mJv2FPRFhYJ7dvNdYR4Q)
+7. [Besim ALTINOK - IoT - Hardware - Wireless](https://www.youtube.com/channel/UCnIV7A3kDL4JXJEljpW6TRQ/playlists)
 
 
 ### IoT security vulnerabilites checking guides
 
-- [Reflecting upon OWASP TOP-10 IoT Vulnerabilities](https://embedi.com/blog/reflecting-upon-owasp-top-10-iot-vulnerabilities/)
+- [Reflecting upon OWASP TOP-10 IoT Vulnerabilities](https://embedi.org/blog/reflecting-upon-owasp-top-10-iot-vulnerabilities/)
 
 
 ### Exploitation Tools & OS 
-- [Exploit - IoT Exploitation framework - by Aseemjakhar](https://gitlab.com/expliot_framework/expliot)
+- [Expliot - IoT Exploitation framework - by Aseemjakhar](https://gitlab.com/expliot_framework/expliot)
 - [AttifyOS - IoT Pentest OS - by Aditya Gupta](https://github.com/adi0x90/attifyos)
 - [Ubutnu Best Host Linux for IoT's - Use LTS](https://www.ubuntu.com/)
 - [A Small, Scalable Open Source RTOS for IoT Embedded Devices](https://www.zephyrproject.org/)
 - [Skywave Linux- Software Defined Radio for Global Online Listening](https://skywavelinux.com/)
 - [Routersploit (Exploitation Framework for Embedded Devices)](https://github.com/threat9/routersploit)
+- [IoTSecFuzz (comprehensive testing for IoT device)](https://gitlab.com/invuls/iot-projects/iotsecfuzz)
 
 ### Reverse Enginnering Tools
 - [IDA Pro](https://www.youtube.com/watch?v=fgMl0Uqiey8)
@@ -98,6 +132,7 @@ Approach Methodology
 - [Introduction and protocol Overview](https://www.youtube.com/watch?v=FqLDpHsxvf8)	
 - [PENTESTING VEHICLES WITH CANTOOLZ](https://www.blackhat.com/docs/eu-16/materials/eu-16-Sintsov-Pen-Testing-Vehicles-With-Cantoolz.pdf)
 - [Building a Car Hacking Development Workbench: Part1](https://blog.rapid7.com/2017/07/11/building-a-car-hacking-development-workbench-part-1/)
+- [CANToolz - Black-box CAN network analysis framework](https://github.com/CANToolz/CANToolz)
 
 #### Radio IoT Protocols Overview
 - [Understanding Radio](https://www.taitradioacademy.com/lessons/introduction-to-radio-communications-principals/)
@@ -139,9 +174,16 @@ Approach Methodology
     - [hcitool & bluez](https://www.pcsuggest.com/linux-bluetooth-setup-hcitool-bluez)
     - [Testing With GATT Tool](https://www.jaredwolff.com/blog/get-started-with-bluetooth-low-energy/)
     - [Cracking encryption](https://github.com/mikeryan/crackle)
+    - [bettercap](https://github.com/bettercap/bettercap)
+    
+ ##### BLE Sniffing/MiTM
+ - [BtleJuice Bluetooth Smart Man-in-the-Middle framework](https://github.com/DigitalSecurity/btlejuice)
+ - [gattacker](https://github.com/securing/gattacker)
+ - [BTLEjack Bluetooth Low Energy Swiss army knife](https://github.com/virtualabs/btlejack)
 
 #### Mobile security (Android & iOS)
  - [Android](https://www.packtpub.com/hardware-and-creative/learning-pentesting-android-devices)
+ - [Android Pentest Video Course](https://www.youtube.com/watch?v=zHknRia3I6s&list=PLWPirh4EWFpESLreb04c4eZoCvJQJrC6H)
  - [IOS Pentesting](https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf?)
 
 #### ARM
@@ -149,14 +191,17 @@ Approach Methodology
 - [ARM EXPLOITATION FOR IoT](https://www.exploit-db.com/docs/english/43906-arm-exploitation-for-iot.pdf)
 
 #### Firmware Pentest
- - [Firmware analysis and reversing](https://www.youtube.com/watch?v=G0NNBloGIvs)
+ - [Firmware analysis and reversing](https://www.owasp.org/index.php/IoT_Firmware_Analysis)
  - [Firmware emulation with QEMU](https://www.youtube.com/watch?v=G0NNBloGIvs)
  - [Dumping Firmware using Buspirate](http://iotpentest.com/tag/pulling-firmware/)
+ 
+#### Firmware to pentest
+ - [Download From here](https://firmware.center/)
 
 ### IoT hardware Overview
  - [IoT Hardware Guide](https://www.postscapes.com/internet-of-things-hardware/)	
  
-#### Hardware Tools
+#### Hardware Gadgets to pentest
   - [Bus Pirate](https://www.sparkfun.com/products/12942)
   - [EEPROM readers](https://www.ebay.com/bhp/eeprom-reader)
   - [Jtagulator / Jtagenum](https://www.adafruit.com/product/1550)
@@ -168,6 +213,7 @@ Approach Methodology
   - [Hak5Gear- Hak5FieldKits](https://hakshop.com/)
   - [Ultra-Mini Bluetooth CSR 4.0 USB Dongle Adapter](https://www.ebay.in/itm/Ultra-Mini-Bluetooth-CSR-4-0-USB-Dongle-Adapter-Black-Golden-with-2-yr-wrnty-/332302813975)
   - [Attify Badge - UART, JTAG, SPI, I2C (w/ headers)](https://www.attify-store.com/products/attify-badge-assess-security-of-iot-devices)
+  - [Ubertooth](https://github.com/greatscottgadgets/ubertooth/wiki/Ubertooth-One)
     
 #### Attacking Hardware Interfaces
    -	[Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
@@ -177,6 +223,9 @@ Approach Methodology
    - [Identifying UART interface](https://www.mikroe.com/blog/uart-serial-communication)
    - [onewire-over-uart](https://github.com/dword1511/onewire-over-uart)
    - [Accessing sensor via UART](http://home.wlu.edu/~levys/courses/csci250s2017/SensorsSignalsSerialSockets.pdf)
+   - [Using UART to connect to a chinese IP cam](https://www.davidsopas.com/using-uart-to-connect-to-a-chinese-ip-cam/)
+   
 #### JTAG
    - [Identifying JTAG interface](https://blog.senr.io/blog/jtag-explained)
    - [NAND Glitching Attack](http://www.brettlischalk.com/posts/nand-glitching-wink-hub-for-root)
+   
