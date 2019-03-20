@@ -58,6 +58,7 @@
 14. http://blog.k3170makan.com/
 15. https://blog.tclaverie.eu/
 16. http://blog.besimaltinok.com/category/iot-pentest/
+17. https://ctrlu.net/
 
 ### Search Engines for IoT Devices
 1. [Shodan](https://www.shodan.io/)
@@ -71,6 +72,7 @@
 2. https://www.microcorruption.com/
 3. https://github.com/Riscure/Rhme-2016
 4. https://github.com/Riscure/Rhme-2017
+5. https://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
 
 ### YouTube Channels for IoT Pentesting
 1. [Liveoverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
@@ -194,6 +196,7 @@
  - [Firmware analysis and reversing](https://www.owasp.org/index.php/IoT_Firmware_Analysis)
  - [Firmware emulation with QEMU](https://www.youtube.com/watch?v=G0NNBloGIvs)
  - [Dumping Firmware using Buspirate](http://iotpentest.com/tag/pulling-firmware/)
+ - [Reversing ESP8266 Firmware](https://boredpentester.com/reversing-esp8266-firmware-part-1/)
  
 #### Firmware to pentest
  - [Download From here](https://firmware.center/)
@@ -218,14 +221,18 @@
 #### Attacking Hardware Interfaces
    -	[Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
    -  [Reverse Engineering Serial Ports](http://www.devttys0.com/2012/11/reverse-engineering-serial-ports/)
-      
+   -  [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
+
 #### UART  
    - [Identifying UART interface](https://www.mikroe.com/blog/uart-serial-communication)
    - [onewire-over-uart](https://github.com/dword1511/onewire-over-uart)
    - [Accessing sensor via UART](http://home.wlu.edu/~levys/courses/csci250s2017/SensorsSignalsSerialSockets.pdf)
    - [Using UART to connect to a chinese IP cam](https://www.davidsopas.com/using-uart-to-connect-to-a-chinese-ip-cam/)
+   - [A journey into IoT – Hardware hacking: UART](https://techblog.mediaservice.net/2019/03/a-journey-into-iot-hardware-hacking-uart/)
    
 #### JTAG
    - [Identifying JTAG interface](https://blog.senr.io/blog/jtag-explained)
    - [NAND Glitching Attack](http://www.brettlischalk.com/posts/nand-glitching-wink-hub-for-root)
    
+#### SideChannel Attacks
+   - [All Attacks](https://yifan.lu/)
